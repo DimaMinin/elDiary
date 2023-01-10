@@ -6,7 +6,7 @@ server:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/el_jur
+    url: jdbc:postgresql://localhost:5432/test
     username: postgres
     password: 26932693
   jpa:
@@ -14,3 +14,7 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
+jwt:
+  secret: bhdjkrhe98p27r[fhnd7*(^R(F(G&5wrf#!@kj
+  lifetime: 36000000
+
